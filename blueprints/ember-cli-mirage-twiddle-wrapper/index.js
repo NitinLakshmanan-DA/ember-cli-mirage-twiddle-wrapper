@@ -7,7 +7,7 @@ module.exports = {
   afterInstall: function() {
     return this.addAddonsToProject({
       packages: [
-        { name: 'ember-cli-mirage', target: '0.3.0-beta.4' },
+        { name: 'ember-cli-mirage', target: '0.3.0-beta.3' },
       ]
     });
   }
